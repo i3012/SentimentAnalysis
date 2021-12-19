@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    background-image: url("photo2.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+	letter-spacing: 2px;
+    text-align: center;
+	animation: flash 2.5s infinite;
+}
+
+@keyframes flash{
+	50%{
+		color: rgb(217, 255, 0);
+	}
+}
+
+h1:nth-child(1){
+	animation-delay: .15s ;
+}
+
+h1:nth-child(1){
+	animation-delay: .25s ;
+}
+
+h1:nth-child(2){
+	animation-delay: .35s ;
+}
+
+h1:nth-child(4){
+	animation-delay: .45s ;
+}
+
+h1:nth-child(5){
+	animation-delay: .55s ;
+}
+
+h1:nth-child(6){
+	animation-delay: .65s ;
+}
+
+h1:nth-child(7){
+	animation-delay: .75s ;
+}
+
+h1:nth-child(8){
+	animation-delay: .85s ;
+}
+
+h1:nth-child(9){
+	animation-delay: .95s ;
+}
+
+h1:nth-child(10){
+	animation-delay: .105s ;
+}
+
+h1:nth-child(11){
+	animation-delay: .115s ;
+}
+
+h1:nth-child(12){
+	animation-delay: .125s ;
+}
+
+h1:nth-child(13){
+	animation-delay: .135s ;
+}
+
+h1:nth-child(14){
+	animation-delay: .145s ;
+}
+
+h1:nth-child(15){
+	animation-delay: .155s ;
+}
+
+h1:nth-child(16){
+	animation-delay: .165s ;
+}
+
+h1:nth-child(17){
+	animation-delay: .175s ;
+}
+
+h1:nth-child(18){
+	animation-delay: .185s ;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    position: relative;
+    display:inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input[type="text"]{
+    height: 70px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    height: 55px;
+    width: 220x;
+    border-radius: 10px;
+}
